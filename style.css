@@ -135,11 +135,11 @@ body{
     font-size: 66px;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width: 768px) {
     .toggle-button{
-        display: none;
+        display:  none;
     }
-    .header{
+    #header{
         z-index: 0;
     }
 }
