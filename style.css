@@ -121,8 +121,8 @@ body{
     height: 200px;
     border-radius: 50%;
     margin: auto;
-    background: url(./assets/about.jpg) no-repeat;
-    background-size: 200%;
+    background: url(./assets/fathersDayPic\ copy.jpeg) no-repeat;
+    background-size: 100%;
     background-position: 40% 0;
 }
 
@@ -130,10 +130,14 @@ body{
 
 /* skills */
 
-/* .icon is for computer language icons */
+/* .icon is for computer language icons used in skills and projects */
 .icon{
     font-size: 66px;
 }
+
+/* projects */
+
+/* experience */
 
 @media screen and (min-width: 768px) {
     .toggle-button{
@@ -142,4 +146,5 @@ body{
     #header{
         z-index: 0;
     }
+
 }
