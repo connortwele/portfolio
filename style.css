@@ -8,7 +8,7 @@ body{
 }
 
 :root{
-    --color-primary: #000000;
+    --color-primary: #4C585A;
     --color-secondary: #ffffff;
     --color-border: #ffffff34;
     --font-staat: "Staatliches", cursive;
@@ -76,7 +76,7 @@ body{
 
 #header .nav-link{
     margin: .7rem 1rem;
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: 1px solid #C6EADD;
     text-transform: uppercase;
 }
 
@@ -96,6 +96,10 @@ body{
 .toggle-left{
     left: 0 !important;
     width: 1000px !important;
+}
+
+section{
+    border-bottom: 2px solid #C6EADD;
 }
 
 /* home section CSS */
@@ -135,7 +139,53 @@ body{
     font-size: 66px;
 }
 
+/* carousel arrow alterations */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 10px;
+  width: 10px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 5px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 5px;
+  color: black;
+}
+
 /* projects */
+
+/* education */
+
+.ka-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: url(./assets/kableAcademyLogo.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.cs-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: url(./assets/cStateLogo.jpeg) no-repeat;
+    background-size: 100%;    
+}
+
 
 /* experience */
 
@@ -145,6 +195,17 @@ body{
     }
     #header{
         z-index: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .ka-logo{
+        display:none;
+    }
+
+    .cs-logo{
+        display: none;
     }
 
 }
