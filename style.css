@@ -140,7 +140,7 @@ section{
 }
 
 /* carousel arrow alterations */
-.carousel-control-prev-icon,
+/*.carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
   width: 100px;
@@ -162,7 +162,7 @@ section{
   content: '<';
   font-size: 55px;
   color: black;
-}
+}*/
 
 /* projects */
 
@@ -200,6 +200,8 @@ section{
     margin-right: auto;
 }
 
+
+
 .oasisLogo{
     width: 100px;
     height: 100px;
@@ -209,6 +211,20 @@ section{
     background-size: 100%;
     margin-left: auto;
     margin-right:auto;
+}
+
+/*contact*/
+
+.carousel-item img{
+    width: auto;
+    height: 245px;
+    max-height: 245px;
+    margin: auto; 
+    display: block;
+    }
+
+.contactText{
+    color: black;
 }
 
 @media screen and (min-width: 768px) {
